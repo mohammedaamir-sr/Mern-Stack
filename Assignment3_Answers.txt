@@ -1,0 +1,47 @@
+HTML QUESTIONS & ANSWERS
+========================
+
+1. EMMET SHORTCUT FOR HTML BOILERPLATE
+   Alternative: html:5 + Tab
+   Creates standard HTML5 boilerplate with DOCTYPE, head, and body tags.
+
+2. DOCTYPE IN HTML
+   Definition: Document Type Declaration that tells browsers which HTML version is used.
+   For HTML5: <!DOCTYPE html>
+   Why needed: Ensures proper rendering in standards mode, improves cross-browser compatibility.
+
+3. VOID ELEMENTS
+   Definition: Self-closing HTML tags that don't have closing tags and no content.
+   Examples: <img>, <br>, <hr>, <input>, <meta>, <link>, <area>, <base>, <embed>, <source>, <track>, <col>
+
+4. ELEMENTS VS ATTRIBUTES
+   Elements: Building blocks of HTML with opening/closing tags and content.
+             Example: <p>Text</p>
+   Attributes: Additional info placed inside opening tags to modify elements.
+               Example: src, alt, class, id, href, style
+   Key difference: Elements are containers; attributes provide metadata.
+
+5. HTML ENTRIES
+   Definition: Individual data items in lists, tables, or forms.
+   Why needed: Organize information, improve navigation, enhance accessibility, better UX and SEO.
+   Examples: List items <li>, table rows <tr>, form inputs <input>
+
+6. META TAGS
+   Definition: HTML tags providing document metadata placed in <head> section.
+   Common uses:
+   - <meta charset="UTF-8"> - Character encoding
+   - <meta name="viewport" content="width=device-width, initial-scale=1.0"> - Responsive design
+   - <meta name="description" content="..."> - SEO
+   Why used: Improves SEO, enables responsive design, ensures proper encoding, increases accessibility.
+
+7. BEST WAYS TO ADD IMAGES
+   1. Use <img> tag with alt attribute: <img src="image.jpg" alt="Description">
+   2. Always include alt text for accessibility
+   3. Optimize image size/format (JPEG, PNG, WebP)
+   4. Use CDN for faster loading
+   5. Make images responsive with max-width: 100%
+   6. Add loading="lazy" for performance
+   7. Specify width and height attributes
+   8. Use local path or CDN URL depending on project needs
+   9. Consider picture element for multiple formats
+   10. Complete example: <img src="image.jpg" alt="Description" width="400" height="300" loading="lazy" style="max-width: 100%; height: auto;">
